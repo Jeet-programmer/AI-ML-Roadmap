@@ -1,10 +1,20 @@
 * {
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
   
   body {
-    background-color: #474e5d;
+    background-color: #4799c2;
     font-family: Helvetica, sans-serif;
+  }
+
+  h2{
+    margin-top: 5px;
+    color: #ff9f55;
+  }
+
+  a{
+    text-decoration: none;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -14,7 +24,13 @@
     margin: 0 auto;
   }
   .heading{
-    color: #f0eded;
+    color: #fbf9f9;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #head{
+    font-family: 'Libre Baskerville', serif;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -44,9 +60,9 @@
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
+    background-color: #FF9F55;
     border: 4px solid #FF9F55;
-    top: 15px;
+    top: 43%;
     border-radius: 50%;
     z-index: 1;
   }
@@ -66,7 +82,7 @@
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 45%;
     width: 0;
     z-index: 1;
     right: 30px;
@@ -80,7 +96,7 @@
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 45%;
     width: 0;
     z-index: 1;
     left: 30px;
@@ -97,9 +113,9 @@
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: rgba(255,255,255,0.85);
     position: relative;
-    border-radius: 6px;
+    border-radius: 45px;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
